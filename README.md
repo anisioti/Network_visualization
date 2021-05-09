@@ -40,6 +40,6 @@ Add the dataset in the same folder with the code.
 
 Run the script for seeing the app running locally: 
 ```
-python3 final_app.py 
+python final_app.py 
 ```
 
