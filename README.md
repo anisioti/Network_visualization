@@ -15,6 +15,12 @@ The application is hosted in **heroku** cloud application platform.
 
 ### The application can be accessed in the following [link](https://network-case-study.herokuapp.com/)
 
+## Content of this repository: 
+- ``` network_plots.ipynb``` the file showing the creation of the network and the plots.
+- ``` final_app.py ``` the file containing the content of the notebook plus the code for running the app locally. 
+- ``` 2d_visualization.html ``` file containing the 2d plot of the network. 
+- ``` 3d_visualization.html ``` file containing the 3d plot of the network.
+- ``` requirements.txt ``` file with the required libraries for reproducing the code. 
 
 ## Reproducing the results: 
 
@@ -31,9 +37,9 @@ Install the required libraries with:
 pip install -r requirements.txt 
 ```
 Add the dataset in the same folder with the code. 
+
 Run the script for seeing the app running locally: 
 ```
 python3 final_app.py 
 ```
 
-The repository also contains the html outputs produced after creating the plots. 
